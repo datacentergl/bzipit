@@ -1,0 +1,12 @@
+[package]
+name = "bzipit"
+version = "1.0.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+bzip2 = "0.4.4"
+walkdir = "2.5.0"
+
+[build-dependencies]
+winres = "0.1"

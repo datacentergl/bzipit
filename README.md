@@ -27,7 +27,6 @@ bzipit detects the Windows display language automatically. To override it, pass 
 ```text
 bzipit.exe --lang=en
 bzipit.exe --lang=val
-bzipit.exe --lang=ca-ES-valencia
 ```
 
 ## Cross-compile for Windows from Linux
@@ -71,5 +70,3 @@ wrestool -l target/x86_64-pc-windows-gnu/release/bzipit.exe
 
 - The GUI uses the native Win32 API and `WM_DROPFILES` for drag-and-drop support.
 - Drag-and-drop between processes running at different Windows integrity levels may be restricted. Shell virtual files are not supported.
-- `musl` is a Linux C library and does not apply to Windows executables. The Linux fallback is command-line based.
-- This project has not been compiled or tested on Windows in the current environment.
